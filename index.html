@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS avansati</title>
+<style>
+
+a[href^="https://www.google.com"]{
+    color: green;
+}
+
+a[href^="https://www.link-group.eu"]{
+    color: red;
+}
+
+p{
+    font-family: sans-serif;
+}
+
+/*.p::after{
+    content: New ;
+    color: yellow;
+}*/
+
+
+p:nth-of-type(2n+1) {
+    color: red;
+
+}
+
+p:nth-of-type(2n){
+    color: blue;
+}
+</style>
+
+
+</head>
+
+<body>
+    <h1>Main Heading</h1>
+    <p>Paragraph 1</p>
+    <a href="https://www.google.com"> Google</a>
+    <a href="https://www.google.com/doodles">Google Doodles</a>
+    <a href="https://www.link-group.eu">Go to Link Group</a>
+    
+    <h2>Subheading</h2>
+    <p>Paragraph 2  </p>
+    <p>Paragraph 3  </p>
+<div id="second-div">
+    <h3>Sub Subheading</h3>
+    <p>Paragraph 4</p>
+    <p>Paragraph 5</p>
+    <p>Paragraph 6</p>
+    <p>Paragraph 7</p>
+    <p>Paragraph 8</p>
+    <p>Paragraph 9</p>
+    <p>Paragraph 10</p>
+    </div>
+
+</body>
+</html>
