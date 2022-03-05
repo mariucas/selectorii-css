@@ -17,7 +17,7 @@ p{
     font-family: sans-serif;
 }
 
-p.new::after{
+.new::after{
     content: New ;
     color: yellow;
 }
@@ -31,6 +31,15 @@ p:nth-of-type(2n+1) {
 p:nth-of-type(2n){
     color: blue;
 }
+
+p::after {
+    content: New ;
+    color: yellow;
+}
+.parag{
+    color: black;
+}
+ 
 </style>
 
 
@@ -45,7 +54,7 @@ p:nth-of-type(2n){
     
     <h2>Subheading</h2>
     <p class="new">Paragraph 2  </p>
-    <p class="new">Paragraph 3  </p>
+    <p class="new" >Paragraph 3  </p>
 <div id="second-div">
     <h3>Sub Subheading</h3>
     <p>Paragraph 4</p>
@@ -54,7 +63,7 @@ p:nth-of-type(2n){
     <p>Paragraph 7</p>
     <p>Paragraph 8</p>
     <p>Paragraph 9</p>
-    <p>Paragraph 10</p>
+    <p class="parag">Paragraph 10</p>
     </div>
 
 </body>
